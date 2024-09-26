@@ -56,6 +56,10 @@ You’re writing documentation for requesting information about a given user in 
 ###### Respuesta: **1._TRUE_**
 poner un UUID de ejemplo eria muy claro y ayudaría a los desarrolladores a entender mejor cómo debe ser el formato del id.
 
+##### Ejemplo: 
+GET /users/123e4567-e89b-12d3-a456-426614174000 
+Host: api.yoursystem.com
+
 ---
 
 ### 5. Handle Errors from Remote API Server
@@ -68,6 +72,8 @@ You’re building code to handle errors issued from a remote API server. The res
 
 ###### Respuesta: **_3. Check for the presence of an error. If it exists, set a class property to the error, then throw an exception_**
 Esta opción permite almacenar el error para que sea accesible en la clase, y al mismo tiempo lanzar una excepción para manejar el flujo de errores correctamente
+
+##### codigo de muestra en: [pregunta_5.ts](https://github.com/Valentinpico/backend_questions/blob/main/pregunta_5.ts)
 
 ---
 
@@ -95,6 +101,8 @@ You need to name the private method in your class that handles looping through e
 ###### Respuesta: **_2. loopProductsAndParse()._**
 Este nombre para el método es muy descriptivo para lo que se quiere hacer
 
+##### codigo de muestra en: [pregunta_7.ts](https://github.com/Valentinpico/backend_questions/blob/main/pregunta_8.ts)
+
 ---
 
 ### 8. Strategy for Storing Database Credentials
@@ -109,3 +117,5 @@ There are multiple places in your codebase that need to access the database. To 
 
 ###### Respuesta: **_4. Put them in a .env file, load data from it into a configuration system, then request the credentials from a database service provider._**
 Esta opción permite  mantener las credenciales fuera del código y es de fácil configuracion en varios entornos y no cambia el código
+
+##### codigo de muestra en: [pregunta_8.ts](https://github.com/Valentinpico/backend_questions/blob/main/pregunta_8.ts)
