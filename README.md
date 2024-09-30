@@ -57,8 +57,7 @@ You’re writing documentation for requesting information about a given user in 
 poner un UUID de ejemplo eria muy claro y ayudaría a los desarrolladores a entender mejor cómo debe ser el formato del id.
 
 ##### Ejemplo: 
-GET /users/123e4567-e89b-12d3-a456-426614174000 
-Host: api.yoursystem.com
+GET /users/123e4567-e89b-12d3-a456-426614174000
 
 ---
 
